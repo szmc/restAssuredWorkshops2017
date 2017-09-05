@@ -1,0 +1,937 @@
+[
+  {
+    "name": "Agile Automation app",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "UwRtEuIk",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-09-04T07:57:09.621Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "599e805e68b7b47975ae3dcf",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/UwRtEuIk/agile-automation-app",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-09-04T13:15:23.463Z",
+    "shortUrl": "https://trello.com/b/UwRtEuIk",
+    "memberships": [
+      {
+        "id": "599e805e68b7b47975ae3dd3",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "599e8c2bf32d53eb277459f6",
+        "idMember": "53be509eba025cd39206b26a",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "Another board",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "Wmxfwsya",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a684b88e12ad219c4b774e",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/Wmxfwsya/another-board",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-30T10:09:52.638Z",
+    "shortUrl": "https://trello.com/b/Wmxfwsya",
+    "memberships": [
+      {
+        "id": "59a684b88e12ad219c4b774f",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "End2EndBoardName",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "Ipinykmo",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-09-04T13:11:05.909Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59ad05a49935325279e6b878",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/Ipinykmo/end2endboardname",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-09-04T13:11:05.963Z",
+    "shortUrl": "https://trello.com/b/Ipinykmo",
+    "memberships": [
+      {
+        "id": "59ad05a49935325279e6b87c",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "End2EndBoardName1",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "EeBFnncD",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-09-04T13:12:38.239Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59ad5131467ac30f919d89c3",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/EeBFnncD/end2endboardname1",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-09-04T13:15:23.464Z",
+    "shortUrl": "https://trello.com/b/EeBFnncD",
+    "memberships": [
+      {
+        "id": "59ad5131467ac30f919d89c7",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "Q&A session with Damien",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "59a927d2ec6c01700758fe9e",
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "pMM0RCBG",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-09-01T15:02:57.932Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a927e27eb4d27012bccdea",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/pMM0RCBG/qa-session-with-damien",
+    "prefs": {
+      "permissionLevel": "org",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "58e09c040809690330693d4a",
+      "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1440/52dc1b8db4c6749b683e999733b47dab/photo-1432889490240-84df33d47091",
+      "backgroundImageScaled": [
+        {
+          "width": 140,
+          "height": 100,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x100/21eb932049639e14cdc7da7985a91f8b/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 256,
+          "height": 192,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x192/a2bd9cdd310905c668dc92c5725899e5/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 480,
+          "height": 480,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x480/821f2fbe1be91c59253c10b6a9be05c9/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 960,
+          "height": 960,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x960/31eead1c3de7f246b3bdfd480c4681d1/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x1024/312660dfcb597800702ee50d0cc7638c/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x2048/2a2cae81ad5c54ddbc20e610be99fedb/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 1280,
+          "height": 1280,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x1280/aec485b4a969081ed9811ebb000093d2/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 1920,
+          "height": 1920,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1920/7ba5a07ec5f2a25ce896eda6fe67dba9/photo-1432889490240-84df33d47091.jpg"
+        },
+        {
+          "width": 2560,
+          "height": 1440,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1440/52dc1b8db4c6749b683e999733b47dab/photo-1432889490240-84df33d47091"
+        }
+      ],
+      "backgroundTile": false,
+      "backgroundBrightness": "light",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-09-04T12:05:41.144Z",
+    "shortUrl": "https://trello.com/b/pMM0RCBG",
+    "memberships": [
+      {
+        "id": "59a927e27eb4d27012bccdee",
+        "idMember": "57614dedd704f52119afa4c1",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a928acb3590816f2222c86",
+        "idMember": "54129039600daf8a65a9cecb",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a929095cceffade4326e21",
+        "idMember": "57e8c2fcd3ae4dedfc3644f1",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a929175fd11ea5ac0f64f0",
+        "idMember": "56a62e0d74fbbb6ed26e6c7c",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a9293d5acdfa6eb26fa68d",
+        "idMember": "5190f94488ee1af77c004df4",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a92d17bfeccc018b2aaea3",
+        "idMember": "556d6857184e33a2c20d2885",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a932bc3f950cef763a13c4",
+        "idMember": "56499d7fc3860d8fcc932bf0",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a933880e58366debde0781",
+        "idMember": "53831fc12b0ec909862bf9dc",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59a96a5da396d849ec32f49e",
+        "idMember": "5565c7641f0f7c919df5d87f",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ad15a555b96c1e779816ce",
+        "idMember": "4ffe90e51647066f2b395dd5",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ad4130f3d5ba1dd68c3e8f",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ad416366d60554dad351c0",
+        "idMember": "533bc17e95e414a64f9c71b7",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ad44516e655f07a9558efa",
+        "idMember": "50295e1aa6383e951b015b67",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ad4d9900e6de3617afc1de",
+        "idMember": "4f168f9dfae7f06450016051",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "59ae6925e2f091af985fceef",
+        "idMember": "5555b7e1a282ed8c9ae84c9b",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "Testowa karta",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "FQ9zdoHv",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a9c3a846fba618873e861e",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/FQ9zdoHv/testowa-karta",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "shortUrl": "https://trello.com/b/FQ9zdoHv",
+    "memberships": [
+      {
+        "id": "59a9c3a846fba618873e8622",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "TrelloBoard",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "nD5Lb5xF",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-08-25T11:10:44.198Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a0057c2631940c92976916",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/nD5Lb5xF/trelloboard",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-25T11:16:22.418Z",
+    "shortUrl": "https://trello.com/b/nD5Lb5xF",
+    "memberships": [
+      {
+        "id": "59a0057c2631940c92976917",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "TrelloBoard1",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "BOfvbREu",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a0064bcd8844a7382e48fc",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/BOfvbREu/trelloboard1",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-25T11:41:01.363Z",
+    "shortUrl": "https://trello.com/b/BOfvbREu",
+    "memberships": [
+      {
+        "id": "59a0064bcd8844a7382e48fd",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "Welcome Board",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "ouBAAbyf",
+    "powerUps": [
+    ],
+    "dateLastActivity": "2017-08-22T06:41:28.758Z",
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "599bd2185d8eea20a71eaca9",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/ouBAAbyf/welcome-board",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "calendarFeedEnabled": false,
+      "background": "lime",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#4BBF6B",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-24T07:28:50.646Z",
+    "shortUrl": "https://trello.com/b/ouBAAbyf",
+    "memberships": [
+      {
+        "id": "599bd2185d8eea20a71eacac",
+        "idMember": "4e6a7fad05d98b02ba00845c",
+        "memberType": "normal",
+        "unconfirmed": false,
+        "deactivated": false
+      },
+      {
+        "id": "599bd2185d8eea20a71eacad",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "board3",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "Xd2Bs3QL",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a7daa4909c43cbdf91c733",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/Xd2Bs3QL/board3",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-31T10:09:24.809Z",
+    "shortUrl": "https://trello.com/b/Xd2Bs3QL",
+    "memberships": [
+      {
+        "id": "59a7daa4909c43cbdf91c734",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "jmeter board",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "COGwiBIT",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a2874619d54fa9a82034e5",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/COGwiBIT/jmeter-board",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2017-08-30T09:52:14.699Z",
+    "shortUrl": "https://trello.com/b/COGwiBIT",
+    "memberships": [
+      {
+        "id": "59a2874619d54fa9a82034e6",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  },
+  {
+    "name": "manual added",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "limits": null,
+    "pinned": null,
+    "invitations": null,
+    "shortLink": "PlyoQua8",
+    "powerUps": [
+    ],
+    "dateLastActivity": null,
+    "idTags": [
+    ],
+    "datePluginDisable": null,
+    "id": "59a7e13294cef686588d0751",
+    "invited": false,
+    "starred": false,
+    "url": "https://trello.com/b/PlyoQua8/manual-added",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "blue",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "dark",
+      "backgroundColor": "#0079BF",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "shortUrl": "https://trello.com/b/PlyoQua8",
+    "memberships": [
+      {
+        "id": "59a7e13294cef686588d0755",
+        "idMember": "599bd2185d8eea20a71eaca7",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  }
+]
+
