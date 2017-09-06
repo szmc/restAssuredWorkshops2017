@@ -3,6 +3,8 @@ package workshops.answers;
 import com.jayway.restassured.response.Response;
 import org.testng.annotations.Test;
 
+import java.util.List;
+import java.util.Map;
 import static com.jayway.restassured.RestAssured.given;
 
 public class GetRequests {
@@ -27,7 +29,8 @@ public class GetRequests {
 	@Test
 	public void jsonTest() {
 		Response response = displayBoards();
-		System.out.println("TUTAJ" +response.jsonPath().get("/*[?(@name='Agile Automation app')]/id"));
+		List<Map> boards = response.jsonPath().get();
+		System.out.println(boards.stream().filter(board -> board.get("name").equals("Agile Automation app")).findFirst().get().get("id"));
 	}
 	@Test
 	public void displayBoardDetailsTest() {
@@ -36,7 +39,7 @@ public class GetRequests {
 
 	@Test
 	public void displayPermissionLevelTest() {
-		System.out.println(displayBoards().jsonPath().get("prefs.permissionLevel[0]"));
+		System.out.println(displayBoards().jsonPath().get("prefs.permissionLevel[0]").toString());
 	}
 
 	@Test
