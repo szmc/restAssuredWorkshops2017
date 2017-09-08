@@ -47,15 +47,19 @@ public class GetRequests {
 		System.out.println(getBoardId("Agile Automation app"));
 	}
 
+
 	public String getBoardId(String boardName) {
 
 		Response response = displayBoards();
-
+		//Simple resolution
 		int i = 0;
 		while (!response.jsonPath().getString("name[" + String.valueOf(i) + "]").equals(boardName)) {
 			i++;
 		}
 		return response.jsonPath().getString("id[" + String.valueOf(i) + "]");
+		//No to simple resolution
+		//List<Map> boards = response.jsonPath().get();
+		//return boards.stream().filter(board -> board.get("name").equals("Agile Automation app")).findFirst().get().get("id").toString();
 	}
 
 	/**

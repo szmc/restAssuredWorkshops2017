@@ -8,7 +8,7 @@ import static com.jayway.restassured.RestAssured.given;
 
 public class Authentication {
 
-	String url = "https://api.trello.com/1";
+	String url = "";
 	String apiKey = "";
 	String token = "";
 
@@ -78,7 +78,7 @@ public class Authentication {
 
 	public RequestSpecification postRequestSpecification() {
 		return given().baseUri(url)
-				.accept("")
+				.contentType("application/json")
 				.queryParam( "key", apiKey)
 				.queryParam("token", token);
 	}

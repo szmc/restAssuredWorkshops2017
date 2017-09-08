@@ -11,6 +11,7 @@ import static com.jayway.restassured.RestAssured.given;
  * Created by szymonr on 01/09/17.
  */
 public class PostRequests {
+
 	public GetRequests getRequests = new GetRequests();
 
 	public Authentication authentication = new Authentication();
@@ -33,7 +34,7 @@ public class PostRequests {
 	 *
 	 */
 
-	Response createCard(String cardName, String boardName) {
+	public Response createCard(String cardName, String boardName) {
 		return given()
 				.spec(authentication.postRequestSpecification())
 				.queryParam("name", cardName)
