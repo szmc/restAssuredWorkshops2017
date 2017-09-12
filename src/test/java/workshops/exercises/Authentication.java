@@ -33,10 +33,27 @@ public class Authentication {
 	 * 5) Print value of selected field from json response
 	 */
 	@Test
-	public void ExampleTest() {
+	public void loginWithCredentialsPostiveTest() {
 		loginWithCredentials("", "").then().statusCode(200);
-		loginWithCredentials("", "").prettyPrint();
-		System.out.println(loginWithCredentials("", "").jsonPath().get(""));
+	}
+
+	@Test
+	public void loginWithCredentialsNegativeTest() {
+		//ToDo: add proper assertion here(then().statusCode()
+		loginWithCredentials("", "");
+	}
+
+	@Test
+	//ToDo add prettyPrint method here
+	public void loginWithCredentialsPrintResponseTest() {
+		loginWithCredentials("", "");
+	}
+
+	@Test
+	//ToDo add proper field name here
+	//hint: you can see the field name in previous test output.
+	public void loginWithCredentialsPrintJsonFieldTest() {
+		System.out.println(loginWithCredentials("", "").jsonPath().getString("fieldName"));
 	}
 
 	/**Exercise: login with api key method
@@ -75,8 +92,7 @@ public class Authentication {
 
 	@Test
 	public void displayDetailsAboutUser() {
-		//ToDo: test request specification here.
-		// Use it in get method for/Members/me endpoint and print it with prettyPrint method
-		// Use spec method to handle request Specification
+		//ToDo: test request specification here. Print the response using prettyPrint method.
+		given().spec(requestSpecification()).when().get("/members/me");
 	}
 }

@@ -7,9 +7,6 @@ import workshops.answers.GetRequests;
 
 import static com.jayway.restassured.RestAssured.given;
 
-/**
- * Created by szymonr on 01/09/17.
- */
 public class PostRequests {
 	/**
 	 * Exercise 1: Create new Board.
@@ -17,8 +14,10 @@ public class PostRequests {
 	 */
 
 	public Response createBoard(String boardName) {
+		//ToDo: add authentication and proper parameters.
+		// Hint: use trello documentation to check endpoint details.
 		return given()
-				.queryParam("", "")
+				.param("", "")
 				.when().post("");
 	}
 
@@ -32,29 +31,16 @@ public class PostRequests {
 	 *
 	 */
 
-	Response createCard(String cardName, String boardName) {
-		return given()
-				.queryParam("", "")
-				.when().post("");
-	}
+	//ToDo: create and test createCard method.
+	//Hint: use trello documentation. You might need 2 arguments for createCard method.
 
-	@Test
-	public void createCardTest() {
-		//ToDo: use createCard method here
-	}
 
 	/**\
 	 * Exercise 3: Create new list
 	 *
 	 */
-	Response createList(String listName, String boardName) {
-		return given()
-				.queryParam("", "")
-				.when().post("");
-	}
 
-	@Test
-	public void createListTest() {
-		//Todo: use createList method here
-	}
+	//ToDo: create and test createList method.
+	//Hint: use trello documentation and use 2 arguments
+
 }

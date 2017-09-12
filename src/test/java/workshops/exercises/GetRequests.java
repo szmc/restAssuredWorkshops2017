@@ -10,8 +10,6 @@ import static com.jayway.restassured.RestAssured.given;
 public class GetRequests {
 	Authentication authentication = new Authentication();
 
-
-
 	/** Exercise 1 Boards
 	 * 1) Create get request for /members/me/boards endpoint
 	 * 2) Create method that will return id of chosen board taking board name as a parameter
@@ -19,21 +17,22 @@ public class GetRequests {
 	 */
 
 
-	public Response displayBoards() {
-		Response response = given()
-				.spec(authentication.requestSpecification())
-				.when().get("/members/me/boards");
-		return response;
+	public void displayBoards() {
+		//ToDo: add authenticatcion, add endpoint change this method to return Response type
+		 		given()
+				.when().get("");
+
 	}
 
 	@Test
 	public void displayBoardDetailsTest() {
-		displayBoards().prettyPrint();
+		//ToDo: call displayBoards with prettyPrint() method here
+
 	}
 
 	@Test
 	public void displayPermissionLevelTest() {
-		System.out.println(displayBoards().jsonPath().get("prefs.permissionLevel[0]"));
+		//ToDo: call displayBoards with jsonPath.get("parent_node.child_node[order of parent node]" method here)
 	}
 
 	@Test
@@ -43,12 +42,13 @@ public class GetRequests {
 
 	public String getBoardId(String boardName) {
 
-		Response response = displayBoards();
+		//ToDo:  Use displayBoard method to initiate response variable. Replace variable1 and variable2 with proper node names.
+		Response response = null;
 		int i = 0;
-		while (!response.jsonPath().getString("name[" + String.valueOf(i) + "]").equals(boardName)) {
+		while (!response.jsonPath().getString("variable1[" + String.valueOf(i) + "]").equals(boardName)) {
 			i++;
 		}
-		return response.jsonPath().getString("id[" + String.valueOf(i) + "]");
+		return response.jsonPath().getString("variable2[" + String.valueOf(i) + "]");
 	}
 
 	/**
@@ -58,57 +58,33 @@ public class GetRequests {
 	 */
 
 	public Response getCards(String boardName) {
+		//ToDo: add endpoint /boards/{$boardId}/cards. Hint: boardId can be taken from getBoardId method.
 		return given()
 				.spec(authentication.requestSpecification())
-				.when().get("/boards/"+getBoardId(boardName)+"/cards");
+				.when().get("");
 	}
 
 	public String getCardId(String cardName, String boardName) {
-		Response response = getCards(boardName);
+		//ToDo:  Use proper method to initiate response variable. Replace variable1 and variable2 with proper node names.
+		Response response = null;
 		int i = 0;
-		while (!response.jsonPath().getString("name[" + String.valueOf(i) + "]").equals(cardName)) {
+		while (!response.jsonPath().getString("variable1[" + String.valueOf(i) + "]").equals(cardName)) {
 			i++;
 		}
-		return response.jsonPath().getString("id[" + String.valueOf(i) + "]");
+		return response.jsonPath().getString("variable2[" + String.valueOf(i) + "]");
 	}
 
 	@Test
 	public void displayCards() {
-		getCards("Agile Automation app").prettyPrint();
+		//ToDo: test getCards and getCardId methods
 	}
 
-	@Test
-	public void displayCardId() {
-		System.out.println(getCardId("Cookies", "Agile Automation app"));
-	}
 
 	/**Exercise 5 Lists
 	 * Display list
 	 * Display list id by list name
 	 */
 
-	public Response getLists(String boardName) {
-		return given()
-				.spec(authentication.requestSpecification())
-				.when().get("/boards/"+getBoardId(boardName)+"/lists");
-	}
-
-	public String getListId(String listName, String boardName) {
-		Response response = getLists(boardName);
-		int i = 0;
-		while (!response.jsonPath().getString("name[" + String.valueOf(i) + "]").equals(listName)) {
-			i++;
-		}
-		return response.jsonPath().getString("id[" + String.valueOf(i) + "]");
-	}
-
-	@Test
-	public void displayLists() {
-		getLists("Agile Automation app").prettyPrint();
-	}
-
-	@Test
-	public void displayListsId() {
-		System.out.println(getListId("To Do", "Agile Automation app"));
-	}
+	//ToDo: Create getList(), getListId() methods with proper parameters. Use endpoint: "/boards/"+getBoardId(boardName)+"/lists"
+	//Hint: You might need 2 parameters in getListId method
 }

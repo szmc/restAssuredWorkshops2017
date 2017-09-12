@@ -2,14 +2,8 @@ package workshops.answers;
 
 import com.jayway.restassured.response.Response;
 import org.testng.annotations.Test;
-import workshops.answers.GetRequests;
-
-import static com.jayway.restassured.RestAssured.authentication;
 import static com.jayway.restassured.RestAssured.given;
 
-/**
- * Created by szymonr on 01/09/17.
- */
 public class PostRequests {
 
 	public GetRequests getRequests = new GetRequests();

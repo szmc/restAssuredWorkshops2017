@@ -11,7 +11,9 @@ public class PutRequests {
 	 * Exercise 1: create a method to change cardName
 	 *
 	 */
-	public Response changeCardName(String oldCardName, String newCardName, String boardName) {
+
+	//ToDo: Add proper parameters and endpoint. See trello documentation for details
+	public Response changeCardName() {
 		return given()
 				.queryParam("", "")
 				.when()
@@ -27,7 +29,8 @@ public class PutRequests {
 	 * Exercise 2: create a method to move card to other list;
 	 *
 	 */
-	public Response moveCardToOtherList(String cardName, String listId, String boardName) {
+	//ToDo: Add proper parameters and endpoint. See trello documentation for details
+	public Response moveCardToOtherList() {
 		return given()
 				.queryParam("", "")
 				.when()
